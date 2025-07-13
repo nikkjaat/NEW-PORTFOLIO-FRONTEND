@@ -1,17 +1,17 @@
-import React from 'react';
-import { Heart, Code2 } from 'lucide-react';
-import styles from './Footer.module.css';
+import React from "react";
+import { Heart, Code2 } from "lucide-react";
+import styles from "./Footer.module.css";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Experience', href: '#experience' },
-    { name: 'Contact', href: '#contact' }
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Skills", href: "#skills" },
+    { name: "Projects", href: "#projects" },
+    { name: "Experience", href: "#experience" },
+    { name: "Contact", href: "#contact" },
   ];
 
   return (
@@ -19,10 +19,10 @@ const Footer = () => {
       <div className={styles.container}>
         <div className={styles.footerContent}>
           <div className={styles.footerSection}>
-            <h3 className={styles.footerTitle}>Alex Johnson</h3>
+            <h3 className={styles.footerTitle}>Nikhil Choudhary</h3>
             <p className={styles.footerDescription}>
-              Full Stack MERN Developer passionate about creating innovative web solutions 
-              and delivering exceptional user experiences.
+              Full Stack MERN Developer passionate about creating innovative web
+              solutions and delivering exceptional user experiences.
             </p>
             <div className={styles.techStack}>
               <span className={styles.techItem}>React</span>
@@ -36,11 +36,7 @@ const Footer = () => {
             <h4 className={styles.sectionTitle}>Quick Links</h4>
             <nav className={styles.footerNav}>
               {quickLinks.map((link, index) => (
-                <a 
-                  key={index}
-                  href={link.href} 
-                  className={styles.footerLink}
-                >
+                <a key={index} href={link.href} className={styles.footerLink}>
                   {link.name}
                 </a>
               ))}
@@ -50,7 +46,8 @@ const Footer = () => {
           <div className={styles.footerSection}>
             <h4 className={styles.sectionTitle}>Let's Connect</h4>
             <p className={styles.connectText}>
-              Ready to start your next project? Let's discuss how we can work together.
+              Ready to start your next project? Let's discuss how we can work
+              together.
             </p>
             <a href="#contact" className={styles.ctaButton}>
               Get In Touch
@@ -60,11 +57,9 @@ const Footer = () => {
 
         <div className={styles.footerBottom}>
           <div className={styles.copyright}>
-            <p>
-              © {currentYear} Nikhil Choudhary. All rights reserved.
-            </p>
+            <p>© {currentYear} Nikhil Choudhary. All rights reserved.</p>
           </div>
-          
+
           <div className={styles.madeWith}>
             <span>Made with</span>
             <Heart size={16} className={styles.heartIcon} />

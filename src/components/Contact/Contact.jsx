@@ -110,7 +110,7 @@ const Contact = () => {
     //   icon: Instagram,
     //   name: "Twitter",
     //   url: "https://twitter.com",
-    //   username: "@alexjohnsondev",
+    //   username: "@nikkjaatt",
     // },
   ];
 
