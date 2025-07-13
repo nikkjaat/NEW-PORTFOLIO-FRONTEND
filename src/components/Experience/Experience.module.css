@@ -1,0 +1,286 @@
+.experience {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f8fafc;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  border-radius: 2px;
+}
+
+.sectionDescription {
+  color: #94a3b8;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, #3b82f6, #8b5cf6);
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 80px;
+}
+
+.timelineMarker {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 0 0 4px #1e293b, 0 0 0 8px rgba(59, 130, 246, 0.2);
+}
+
+.timelineContent {
+  background: rgba(30, 41, 59, 0.6);
+  padding: 2.5rem;
+  border-radius: 16px;
+  border: 1px solid rgba(59, 130, 246, 0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.timelineContent:hover {
+  transform: translateY(-5px);
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 0 20px 40px rgba(59, 130, 246, 0.1);
+}
+
+.experienceHeader {
+  margin-bottom: 1.5rem;
+}
+
+.jobTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f8fafc;
+  margin-bottom: 0.5rem;
+}
+
+.companyInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.company {
+  font-size: 1.1rem;
+  color: #3b82f6;
+  font-weight: 500;
+}
+
+.jobMeta {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.location,
+.period {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.jobDescription {
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.achievements {
+  margin-bottom: 1.5rem;
+}
+
+.achievementsTitle {
+  color: #f8fafc;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.achievementsList {
+  list-style: none;
+  padding: 0;
+}
+
+.achievement {
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.achievement::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.techTag {
+  background: rgba(139, 92, 246, 0.1);
+  color: #8b5cf6;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.certifications {
+  text-align: center;
+}
+
+.certificationsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #f8fafc;
+  margin-bottom: 2rem;
+}
+
+.certificationsTitle svg {
+  color: #3b82f6;
+}
+
+.certificationsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.certificationCard {
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.certificationCard:hover {
+  transform: translateY(-3px);
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+.certTitle {
+  color: #f8fafc;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.certIssuer {
+  color: #3b82f6;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.certMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+
+  .timeline::before {
+    left: 15px;
+  }
+
+  .timelineItem {
+    padding-left: 60px;
+  }
+
+  .timelineMarker {
+    left: 5px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .timelineContent {
+    padding: 2rem;
+  }
+
+  .jobMeta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .certificationsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .certMeta {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+}
