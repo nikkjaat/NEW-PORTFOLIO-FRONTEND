@@ -33,7 +33,7 @@ const Hero = () => {
                 Get In Touch
               </a>
               <a
-                href="/nikhil_resume.pdf"
+                href="/resume_nikhil.pdf"
                 className={styles.secondaryButton}
                 download="Nikhil_Choudhary_Resume.pdf" // This forces download with specified filename
               >
