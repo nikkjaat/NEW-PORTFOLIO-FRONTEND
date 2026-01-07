@@ -10,22 +10,44 @@ import styles from "./Projects.module.css";
 
 const Projects = () => {
   const projects = [
-    // {
-    //   title: "E-Commerce Platform",
-    //   description:
-    //     "Full-stack MERN e-commerce application with payment integration, admin dashboard, and real-time inventory management.",
-    //   image:
-    //     "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
-    //   technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-    //   liveUrl: "#",
-    //   githubUrl: "#",
-    //   features: [
-    //     "Payment Integration",
-    //     "Admin Dashboard",
-    //     "Real-time Updates",
-    //     "Responsive Design",
-    //   ],
-    // },
+    {
+      title: "E-Commerce Platform",
+      description:
+        "Full-stack MERN e-commerce application with payment integration, admin dashboard, and real-time inventory management.",
+      image:
+        "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+      liveUrl: "https://myluxe.netlify.app/",
+      githubUrl: "#",
+      features: [
+        "Payment Integration",
+        "Admin Dashboard",
+        "Real-time Updates",
+        "Responsive Design",
+      ],
+    },
+    {
+      title: "Website for Digital Solutions Company",
+      description:
+        "Website for Digital Solutions Company offering web development, app development, and digital marketing services.",
+      image:
+        "/viunex.png",
+      technologies: ["Next.js", "CSS", "HTML", "JavaScript"],
+      liveUrl: "https://www.viunex.com/",
+      githubUrl: "#",
+      features: ["For our Client", "Responsive Design", "Modern UI"],
+    },
+    {
+      title: "StickKala - Online Handicraft Store",
+      description:
+        "Showcasing traditional handicrafts from various regions, providing artisans a platform to sell their unique creations.",
+      image:
+        "/stichkala.jpeg",
+      technologies: ["Next.js", "CSS", "HTML", "JavaScript"],
+      liveUrl: "https://stichkala.vercel.app/",
+      githubUrl: "#",
+      features: ["Admin Dashboard", "Email Notifications", "Responsive Design", "CRUD Operations"],
+    },
     {
       title: "Task Management App",
       description:
@@ -41,7 +63,7 @@ const Projects = () => {
         "Cloudinary",
       ],
       liveUrl: "https://trelloclonebynikhil.netlify.app/",
-      githubUrl: "https://github.com/nikkjaat",
+      githubUrl: "#",
       features: ["Progress Tracking"],
     },
     {
@@ -52,7 +74,7 @@ const Projects = () => {
         "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
       technologies: ["React Native", "Express.js", "MongoDB"],
       liveUrl: "https://food-hubb.netlify.app/",
-      githubUrl: "https://github.com/nikkjaat",
+      githubUrl: "#",
       features: ["Order Tracking", "Payment Gateway", "Push Notifications"],
     },
     {
@@ -62,7 +84,7 @@ const Projects = () => {
       image: "/udhaarKhata.jpg",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       liveUrl: "https://udharkhata.netlify.app/",
-      githubUrl: "https://github.com/nikkjaat",
+      githubUrl: "#",
       features: [
         "Item Logs",
         "Return Reminders",
@@ -114,13 +136,13 @@ const Projects = () => {
                     >
                       <ExternalLink size={20} />
                     </a>
-                    <a
+                    {/* <a
                       href={project.githubUrl}
                       className={styles.projectLink}
                       aria-label="View source code"
                     >
                       <Github size={20} />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

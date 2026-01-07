@@ -57,7 +57,7 @@ const Footer = () => {
 
         <div className={styles.footerBottom}>
           <div className={styles.copyright}>
-            <p>© {currentYear} Nikhil Choudhary. All rights reserved.</p>
+            <p>© {currentYear} Nikhil Choudhary.</p>
           </div>
 
           <div className={styles.madeWith}>

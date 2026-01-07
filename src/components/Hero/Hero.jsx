@@ -33,9 +33,9 @@ const Hero = () => {
                 Get In Touch
               </a>
               <a
-                href="/resume_nikhil.pdf"
+                href="/nikhil_resume.pdf"
                 className={styles.secondaryButton}
-                download="nikhil_resume.pdf" // This forces download with specified filename
+                download="Nikhil_Choudhary_Resume" // This forces download with specified filename
               >
                 <Download size={18} />
                 Download CV
