@@ -30,8 +30,7 @@ const Projects = () => {
       title: "Website for Digital Solutions Company",
       description:
         "Website for Digital Solutions Company offering web development, app development, and digital marketing services.",
-      image:
-        "/viunex.png",
+      image: "/viunex.png",
       technologies: ["Next.js", "CSS", "HTML", "JavaScript"],
       liveUrl: "https://www.viunex.com/",
       githubUrl: "#",
@@ -41,12 +40,31 @@ const Projects = () => {
       title: "StickKala - Online Handicraft Store",
       description:
         "Showcasing traditional handicrafts from various regions, providing artisans a platform to sell their unique creations.",
-      image:
-        "/stichkala.jpeg",
+      image: "/stichkala.jpeg",
+      technologies: ["Next.js", "CSS", "HTML", "JavaScript"],
+      liveUrl: "https://cafemeetups.com/",
+      githubUrl: "#",
+      features: [
+        "Admin Dashboard",
+        "Email Notifications",
+        "Responsive Design",
+        "CRUD Operations",
+      ],
+    },
+    {
+      title: "StickKala - Online Handicraft Store",
+      description:
+        "Showcasing traditional handicrafts from various regions, providing artisans a platform to sell their unique creations.",
+      image: "/stichkala.jpeg",
       technologies: ["Next.js", "CSS", "HTML", "JavaScript"],
       liveUrl: "https://stichkala.vercel.app/",
       githubUrl: "#",
-      features: ["Admin Dashboard", "Email Notifications", "Responsive Design", "CRUD Operations"],
+      features: [
+        "Admin Dashboard",
+        "Email Notifications",
+        "Responsive Design",
+        "CRUD Operations",
+      ],
     },
     {
       title: "Task Management App",

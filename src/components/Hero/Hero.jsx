@@ -60,7 +60,10 @@ const Hero = () => {
 
           <div className={styles.imageSection}>
             <div className={styles.profileImage}>
-              <img src="/nik4.jpg" alt="Nikhil Choudhary" />
+              <img
+                src="https://res.cloudinary.com/dbexuvouv/image/upload/v1789663289/WhatsApp_Image_2026-09-17_at_9.34.34_PM_dus3n7.jpg"
+                alt="Nikhil Choudhary"
+              />
             </div>
           </div>
         </div>
